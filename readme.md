@@ -29,8 +29,8 @@ The file application.properties file contains most of the enviornments vairables
 ## Build
 To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git`
-* Navigate to the project directory: cd spring-boot-security-jwt
+* Clone the repository: `https://github.com/IshmeetSingh06/greenstitch-assignment.git`
+* Navigate to the project directory: cd greenstitch-assignment
 * Build the project: mvn clean install
 * Run the project: mvn spring-boot:run 
 
