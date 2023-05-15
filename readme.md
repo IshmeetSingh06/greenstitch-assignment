@@ -26,6 +26,18 @@ You Need a IDE such as IntelliJ to run this code or you could use the Springboot
 ## Important Info
 The file application.properties file contains most of the enviornments vairables such as the secret JWT key if you want to change it you can change it there
 
+## Wokring
+This application as per the assignment uses jwt for authentication, the api routes are defined as:
+1. /signup -> 
+2. /login
+I have also created routes to make use of the token to see if it actually works or not some of these are:
+1. /users -> This returns the list of all the user account created inside the database
+2. /users/{id} -> This returns the data of a specific users whose id is provided
+3. /users/{id} -> This route also works with delete request to delete the details of the specific user
+
+All of these routes are saved on this postman workspace : https://www.postman.com/orange-space-749343/workspace/public-workspaces/collection/22369504-d702cd1a-2b6a-4fe9-9a23-cfdddecd5d63?action=share&creator=22369504
+You can run them from there as well
+
 ## Build
 To build and run the project, follow these steps:
 
